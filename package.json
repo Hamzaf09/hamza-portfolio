@@ -1,0 +1,17 @@
+{
+  "name": "hamza-alfaqeeh-portfolio",
+  "version": "1.0.0",
+  "description": "Personal portfolio of Hamza Al-Faqeeh: a static multi-page site built with Vite.",
+  "author": "Hamza Al-Faqeeh",
+  "license": "UNLICENSED",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^8.3.4"
+  }
+}

@@ -1,0 +1,19 @@
+# dependencies and build output
+node_modules/
+dist/
+.vite/
+
+# secrets and local environment
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# private design sources and masters (never published)
+brand-source/
+
+# local tooling and OS files
+.claude/
+.DS_Store
+*.log
