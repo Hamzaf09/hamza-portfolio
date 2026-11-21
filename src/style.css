@@ -190,18 +190,9 @@ section{padding-block:clamp(48px,6.5vw,88px)}
 .robo-head p:not(.kicker):not(.role):not(.robo-links){color:#C9D0DD;max-width:34em}
 .robo-head .role{border-top-color:rgba(255,255,255,.2);color:#fff!important}
 .robo-head .role span{color:#FF5468}
-.robo-head .chips li{background:rgba(255,255,255,.1);color:#EEF1F6}
 .robo-links{margin-top:20px}
+.robo .guides{align-items:start}
 .robo-head__cover{width:100%;height:auto;border-radius:12px}
-.part-tag{margin-bottom:10px;font:500 .8125rem/1 var(--mono);letter-spacing:.06em;text-transform:uppercase;color:#C8102E}
-.robo-points{margin-top:20px;max-width:44rem}
-.robo-points li{border-left-color:#C8102E}
-.robo-points li:first-child{background:#fff}
-.robo-note{max-width:44rem;color:var(--muted);font-size:.95rem}
-.robo-part2{padding-top:clamp(28px,4vw,48px);border-top:1px solid var(--border)}
-.guides--one{grid-template-columns:minmax(0,calc(50% - 8px))}
-@media(max-width:760px){.robo-head{grid-template-columns:1fr}.guides--one{grid-template-columns:minmax(0,1fr)}}
-
 /* NAQI case study additions */
 .eng-head h3 em{display:block;margin-top:10px;font:500 clamp(1rem,1.6vw,1.2rem)/1.35 var(--sans);letter-spacing:0;color:var(--muted)}
 .subnav{display:flex;flex-wrap:wrap;gap:6px 8px;padding:14px clamp(24px,4vw,44px);border-bottom:1px solid var(--border);background:#fff;position:sticky;top:64px;z-index:5}
