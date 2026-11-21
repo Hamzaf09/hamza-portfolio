@@ -183,6 +183,18 @@ section{padding-block:clamp(48px,6.5vw,88px)}
 .apps figure{break-inside:avoid;margin-bottom:16px}
 .apps img{width:100%;background:var(--bg)}
 
+/* ---------- RoboLines (keeps its own red, ink and cream) ---------- */
+.robo-head{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:32px 48px;align-items:center;padding:clamp(28px,5vw,56px);background:#0A1220;color:#fff}
+.robo-head h3{color:#fff;font-size:clamp(2rem,4.2vw,3.25rem);letter-spacing:-.03em;line-height:1.05;margin-bottom:14px}
+.robo-head .kicker{color:#FF5468}
+.robo-head p:not(.kicker):not(.role):not(.robo-links){color:#C9D0DD;max-width:34em}
+.robo-head .role{border-top-color:rgba(255,255,255,.2);color:#fff!important}
+.robo-head .role span{color:#FF5468}
+.robo-head .chips li{background:rgba(255,255,255,.1);color:#EEF1F6}
+.robo-links{margin-top:20px}
+.robo-head__cover{width:100%;height:auto;border-radius:12px}
+.guides--one{grid-template-columns:minmax(0,calc(50% - 8px))}
+@media(max-width:760px){.robo-head{grid-template-columns:1fr}.guides--one{grid-template-columns:minmax(0,1fr)}}
 
 /* NAQI case study additions */
 .eng-head h3 em{display:block;margin-top:10px;font:500 clamp(1rem,1.6vw,1.2rem)/1.35 var(--sans);letter-spacing:0;color:var(--muted)}
@@ -344,7 +356,7 @@ section{padding-block:clamp(48px,6.5vw,88px)}
   .hero__in{grid-template-columns:1fr}
   .hero h1{font-size:clamp(3.2rem,11vw,5.4rem)}
   .hero__visual{max-width:560px;width:100%;margin-inline:auto}
-  .eng-head,.block,.about__in,.contact__in,.elev-head,.consult__in{grid-template-columns:1fr}
+  .eng-head,.block,.about__in,.contact__in,.elev-head,.robo-head,.consult__in{grid-template-columns:1fr}
   .consult__side{position:static}
   .about__photo{max-width:340px}
   .elev-head__logo{justify-self:start;max-width:340px}
